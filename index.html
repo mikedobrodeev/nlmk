@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header_logo">
+                <img src="/img/logo.png" alt="НЛМК Логотип">
+                <span>
+                    С 1934 года.<br>
+                    Теперь и онлайн
+                </span>
+            </div>
+            <div class="header_wrapper">
+                <div class="header_content">
+                    <h1>Начните зарабатывать на нас!</h1>
+                    <h2>Точнее, на нашем маркетплейсе NLMK.SHOP</h2>
+                    <div class="header_content_list">
+                        <span>Разместите свои товары на сайте, и вы совершенно бесплатно получите:</span>
+                        <ul>
+                            <li>Новый канал продаж под ключ</li>
+                            <li>Новых клиентов</li>
+                        </ul>
+                    </div>
+                    <div class="white-bg">
+                        <span>
+                            Все расходы на разработку<br>
+                            и продвижение мы берем на себя.
+                        </span>
+                    </div>
+                    <button class="header_content_btn">
+                        Стать партнером
+                    </button>
+                </div>
+                <div class="header_image">
+                    <img src="/img/car.png" alt="Car" class="car">
+                    <img src="/img/car-shadow.png" alt="Car Shadow" class="shadow">
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="benefits">
+        <div class="benefits_wrapper">
+            <div class="benefits_item">
+                <div class="benefits_item_icon">
+                    <img src="img/medal.svg" alt="">
+                </div>
+                <div class="line"></div>
+                <span class="benefits_item_text">
+                    <a href="https://nlmk.shop">NLMK.SHOP</a> — официальный интернет-магазин Группы компаний НЛМК — лидера металлургии в России и в мире.
+                </span>
+            </div>
+            <div class="benefits_item">
+                <div class="benefits_item_icon">
+                    <img src="img/status.svg" alt="">
+                </div>
+                <div class="line"></div>
+                <span class="benefits_item_text">
+                    Всего за год рост нашей клиентской базы составил <a href="#">более 81</a>
+                </span>
+            </div>
+            <div class="benefits_item">
+                <div class="benefits_item_icon">
+                    <img src="img/best.svg" alt="">
+                </div>
+                <div class="line"></div>
+                <span class="benefits_item_text">
+                    В 2019 году сайт NLMK.SHOP был удостоен звания <a href="#">«Лучший интернет-проект России»</a> в сфере металлургии. 
+                </span>
+            </div>
+        </div>
+    </section>
+
+    <section class="steps">
+        <h1 class="steps_header">
+            3 шага к партнёрству
+        </h1>
+        <div class="steps_wrapper">
+            <div class="steps_item">
+                <div class="steps_item_icon">
+                    <img src="img/create.svg" alt="">
+                </div>
+                <span class="steps_item_text">
+                    Оставьте заявку<br> в форме ниже
+                </span>
+            </div>
+            <div class="steps_item">
+                <div class="steps_item_icon">
+                    <img src="img/manage.svg" alt="">
+                </div>
+                <span class="steps_item_text">
+                    Обсудите все условия<br> с нашим менеджером, который оперативно свяжется с вами
+                </span>
+            </div>
+            <div class="steps_item">
+                <div class="steps_item_icon">
+                    <img src="img/push.svg" alt="">
+                </div>
+                <span class="steps_item_text">
+                    Разместите товары<br> на нашем сайте
+                </span>
+            </div>
+        </div>
+    </section>
+
+    <script type="text/javascript" src="js/script.js"></script>
+
+    <section class="partner">
+        <div class="partner_wrapper">
+            <h1 class="partner_header">
+                Начните получать заказы<br>от новых клиентов!
+            </h1>
+            <div class="partner_form">
+                <h2>Да, я хочу стать партнёром:</h2>
+                <form action="">
+                    <input class="name" type="text" name="name" placeholder="Представьтесь пожалуйста" >
+                    <input class="phone" type="tel" name="phone" placeholder="+79991234567" >
+                    <input class="email" type="email" name="email" placeholder="Электронная почта" >
+                    <div class="error-phone hide" >
+                        Вы ввели некорректный номер телефона. Попробуйте ещё раз
+                    </div>
+                    <div class="error-email hide" >
+                        Вы ввели некорректный адрес электронной почты. Попробуйте ещё раз
+                    </div>
+                    <span>Все поля обязательны для заполнения</span>
+                    <div class="partner_form_submit">
+                        <label>
+                            <input type="checkbox" name="rules" class="real-checkbox" >
+                            <span class="fake-checkbox"></span>
+                            <span class="title-checkbox">Я согласен с <a href="#">условиями</a> обработки данных</span>
+                        </label>
+                        <button class="partner_form_btn" disabled>
+                            Отправить заявку
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <svg style="display: none">
+        <defs>
+          <filter id="corner">
+            <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="7.5"/>
+            <feColorMatrix in="blur" result="colormatrix"
+              type="matrix"
+              values="1 0 0 0 0
+                      0 8 0 0 0
+                      0 0 1 0 0
+                      0 0 0 13 -8" />
+            <feBlend in="SourceGraphic" in2="colormatrix"/>
+    </filter>
+    
+</body>
+</html>
