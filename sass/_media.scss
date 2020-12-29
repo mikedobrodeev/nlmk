@@ -90,9 +90,7 @@
     }
 
     .steps {
-        padding-top: 26px;
-        padding-bottom: 26px;
-        min-height: 0;
+        padding: 26px 16px;
 
         &_wrapper {
             flex-direction: column;
@@ -223,7 +221,7 @@
 
 }
 
-@media only screen and (max-device-width: 1024px) {
+@media only screen and (max-device-width: 1024px) and (min-device-width: 668px) {
 
     .header {
         padding: 25px 16px 32px 16px;
